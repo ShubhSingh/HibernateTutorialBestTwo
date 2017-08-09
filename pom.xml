@@ -16,6 +16,12 @@
   </properties>
 
   <dependencies>
+  	<!-- Apache Derby DB -->
+	<dependency>
+	    <groupId>org.apache.derby</groupId>
+	    <artifactId>derbyclient</artifactId>
+	    <version>10.13.1.1</version>
+	</dependency>
   	<dependency>
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-core</artifactId>
